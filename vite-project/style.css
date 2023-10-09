@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; /* The linear-gradient function specifies the direction and color stops */
+
+.textGradient {
+  background: linear-gradient(105deg, #fff 3.62%, #ffb656 72.59%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(180deg, #113349 4%, #ffffff 200%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
